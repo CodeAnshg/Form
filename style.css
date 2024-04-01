@@ -1,0 +1,84 @@
+body{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    height: 99.5vh;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    padding: 0px;
+    width: 100%;
+    border-bottom: 2px solid rgb(238, 229, 229);
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
+}
+
+.grid_base{
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.grid_base div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.last{
+    padding-top: 2.6vh;
+}
+.grid_base div div{
+    font-size: small;
+}
+label , .status span{
+    font-weight: bolder;
+}
+.grid_base input{
+    height: 3vh;
+}
+.status{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    /* padding-left: 5vw; */
+    padding-top: 1vw;
+    gap: 3px;
+}
+.status label{
+    font-weight: lighter;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    /* align-items: left; */
+    justify-content: center;
+    /* padding-left: 5vw; */
+    
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: white; */
+    padding-top: 1rem;
+}
+.submit button{
+    height: 5vh;
+    width: 10vw;
+    background-color: rgb(66, 236, 66);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}

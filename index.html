@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Assignment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h2>Task Assignment Form</h2>
+        <div class="form">
+            <form action="">
+                <div class="grid_base">
+                    <div>
+                        <label for="emp1">Employee First Name</label>
+                        <input type="text" id="emp1" >
+                    </div>
+                    <div class="last">
+                        <label for="emp2"></label>
+                        <input type="text" id="emp2" >
+                    </div>
+                    <div>
+                        <label for="man1">Manager First Name</label>
+                        <input type="text" id="man1" >
+                    </div>
+                    <div class="last">
+                        <label for="man2"></label>
+                        <input type="text" id="man2" >
+                    </div>
+                    <div>
+                        <label for="task">Task</label>
+                        <input type="text" id="task" >
+                    </div>
+                    <div>
+                        <label for="task_id">Task ID</label>
+                        <input type="text" id="task_id" placeholder="ex: 3">
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="status">
+                        <span>Status</span>
+                        <label for="Not">
+                            <input type="radio" name="Status" id="Not" value="Not Started">Not Started
+                        </label>
+                        <label for="In">
+                            <input type="radio" name="Status" id="In" value="In Progress">In Progress
+                        </label>
+                        <label for="Done">
+                            <input type="radio" name="Status" id="Done" value="Done">Done
+                        </label>
+                        <label for="Awaiting">
+                            <input type="radio" name="Status" id="Awaiting" value="Awaiting Feedback">Awaiting Feedback
+                        </label>
+                    </div>
+                    
+                    <div class="last">
+                        <div>Additional Notes</div>
+                        <textarea name="Notes" id="Notes" cols="72" rows="5" placeholder="Type Here..."></textarea>
+                        <div>Instructions</div>
+                        <textarea name="instructions" id="instructions" cols="72" rows="3" placeholder="Instructions..."></textarea>
+                    </div>
+                    <div class="submit">
+                        <button id="submitBtn" type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="form_script.js"></script>
+</body>
+
+</html>
